@@ -1,0 +1,27 @@
+{
+  "name": "berry-is.gay",
+  "version": "0.0.1",
+  "description": "Berry: Gay",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo no"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Million900o/berry-is.gay.git"
+  },
+  "keywords": [
+    "berry",
+    "gay"
+  ],
+  "author": "MILLION",
+  "license": "MPL-2.0",
+  "bugs": {
+    "url": "https://github.com/Million900o/berry-is.gay/issues"
+  },
+  "homepage": "https://github.com/Million900o/berry-is.gay#readme",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1"
+  }
+}
