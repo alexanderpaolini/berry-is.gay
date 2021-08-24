@@ -23,10 +23,7 @@ export class ApiController {
     @Param('file_name') imageName: string,
     @Res() res: Response
   ) {
-    const image = this.images.getImage(imageName)
-
-    if (!image) throw new HttpException('Berry Not Found', HttpStatus.NOT_FOUND)
-
+    const image = this.getImage(imageName)
     const buffer = this.images.buffers.get(image.fileName)
 
     if (!buffer) throw new HttpException('Missing Content', HttpStatus.PRECONDITION_FAILED)
