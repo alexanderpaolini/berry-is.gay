@@ -5,7 +5,7 @@ import { ImagesService } from '../services/images.service'
 export class ImagesController {
   constructor (private images: ImagesService) { }
 
-  @Get('/list')
+  @Get(['/', '/list'])
   @Render('list')
   getList () {
     return {
