@@ -7,6 +7,15 @@ import { resolve } from 'path'
 
 import { NestExpressApplication } from '@nestjs/platform-express'
 
+import { config } from 'dotenv'
+config()
+
+const PORT = process.env['PORT'] as unknown as number
+const BERRY = process.env['BERRY'] as 'GAY' | undefined
+
+if (!PORT) throw new Error('PORT environment variable not provided')
+if (BERRY !== 'GAY') throw new Error('BERRY environment variable not gay')
+
 async function bootstrap () {
   const app = await NestFactory.create<NestExpressApplication>(AppModule)
 
@@ -23,7 +32,7 @@ async function bootstrap () {
   app.setBaseViewsDir(resolve(__dirname, '../src', './views'))
   app.setViewEngine('ejs')
   
-  await app.listen(3000)
+  await app.listen(PORT)
 }
 
 void bootstrap()
