@@ -1,9 +1,9 @@
 import { Controller, Get, Param, Render } from '@nestjs/common'
-import { ImagesService } from '../services/images.service'
+import { MediaService } from '../services/media.service'
 
 @Controller('/')
 export class ImagesController {
-  constructor (private images: ImagesService) { }
+  constructor (private images: MediaService) { }
 
   @Get(['/', '/list'])
   @Render('list')

@@ -7,10 +7,10 @@
 </head>
 
 <body>
-  <% if (image.type==='video' ) { %>
-    <video controls><source src="/assets/<%- image.file_name %>"></video>
+  <% if (image.type === 'video') { %>
+    <video controls><source src="/api/cdn/<%- image.fileName %>"></video>
   <% } else { %>
-    <img src="/assets/<%- image.file_name %>"></img>
+    <img src="/api/cdn/<%- image.fileName %>"></img>
   <% } %>
 </body>
 

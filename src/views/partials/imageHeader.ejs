@@ -2,10 +2,8 @@
 
 <% if (image.type === 'video') { %>
   <meta property="og:type" content="video.other">
-  <meta property="twitter:player" content="/assets/<%- image.file_name %>">
+  <meta property="twitter:player" content="/api/cdn/<%- image.fileName %>">
   <meta property="og:video:type" content="video/mp4">
-  <meta property="og:video:width" content="<%- image.width %>">
-  <meta property="og:video:height" content="<%- image.height %>">
 <% } else { %>
-  <meta property="og:image" content="/assets/<%- image.file_name %>">
+  <meta property="og:image" content="/api/cdn/<%- image.fileName %>">
 <% } %>
