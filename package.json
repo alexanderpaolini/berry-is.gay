@@ -2,7 +2,7 @@
   "name": "berry-is.gay",
   "version": "0.0.1",
   "description": "Berry: Gay",
-  "main": "src/index.js",
+  "main": "dist/main.js",
   "scripts": {
     "test": "echo no"
   },
@@ -21,7 +21,18 @@
   },
   "homepage": "https://github.com/Million900o/berry-is.gay#readme",
   "dependencies": {
+    "@nestjs/common": "^8.0.6",
+    "@nestjs/core": "^8.0.6",
+    "@nestjs/platform-express": "^8.0.6",
+    "@nestjs/swagger": "^5.0.9",
     "dotenv": "^10.0.0",
-    "express": "^4.17.1"
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "hbs": "^4.1.2",
+    "swagger-ui-express": "^4.1.6"
+  },
+  "devDependencies": {
+    "@types/node": "^16.7.1",
+    "source-map-support": "^0.5.19"
   }
 }

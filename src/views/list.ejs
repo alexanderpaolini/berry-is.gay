@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Berry is Gay</title>
+  <%- include('partials/imageHeader.ejs') %>
+  <style>
+    #box {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+      padding-top: 50px;
+    }
+
+    div {
+      text-align: center;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="box">
+    <% for (const img of images) { %>
+      <div>
+        <h2><%= img.name %></h2>
+        <% if (img.type==='video' ) { %>
+          <video controls width="200"><source src="/assets/<%- img.file_name %>"></video>
+        <% } else { %>
+          <img src="/assets/<%- img.file_name %>" width="200"></img>
+        <% } %>
+      </div>
+    <% } %>
+  </div>
+</body>
+
+</html>

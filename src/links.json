@@ -2,121 +2,139 @@
   {
     "name": "balls",
     "aliases": [],
-    "path": "https://cdn.discordapp.com/attachments/797097242904363028/866928183521837106/video0.mp4",
-    "type": "video"
+    "type": "video",
+    "file_name": "balls.mp4",
+    "width": 656,
+    "height": 1222
+  },
+  {
+    "name": "",
+    "aliases": [],
+    "file_name": "berry.jpg",
+    "type": "image"
   },
   {
     "name": "404",
-    "aliases": ["not found"],
-    "path": "https://cdn.discordapp.com/attachments/797097242904363028/879459519212695582/final_61240216768ad100645dd344_692252.png",
+    "aliases": [
+      "not found"
+    ],
+    "file_name": "404.png",
     "type": "image"
   },
   {
     "name": "beloved",
     "aliases": [],
-    "path": "https://cdn.discordapp.com/attachments/797097242904363028/875219363223994378/image0.gif",
+    "file_name": "beloved.gif",
     "type": "image"
   },
   {
     "name": "sus",
-    "aliases": ["ඩ"],
-    "path": "https://cdn.discordapp.com/attachments/797097242904363028/851505564592504842/Sem_Titulo-1.png",
+    "aliases": [
+      "ඩ",
+      "⍝"
+    ],
+    "file_name": "sus.png",
     "type": "image"
   },
   {
     "name": "high",
-    "aliases": ["weed"],
-    "path": "https://cdn.discordapp.com/attachments/797097242904363028/846783990027124797/image0.png",
-    "type": "image"
-  },
-  {
-    "name": "high",
-    "aliases": ["weed"],
-    "path": "https://cdn.discordapp.com/attachments/797097242904363028/846783990027124797/image0.png",
+    "aliases": [
+      "weed"
+    ],
+    "file_name": "high.jpg",
     "type": "image"
   },
   {
     "name": "talking",
     "aliases": [],
-    "path": "https://media.discordapp.net/attachments/830202709688451072/834987205243699241/xVjiNtxC6Q.gif",
+    "file_name": "talking.gif",
     "type": "image"
   },
   {
     "name": "maid",
     "aliases": [],
-    "path": "https://cdn.discordapp.com/attachments/264445053596991498/837300203488149544/Maid.png",
+    "file_name": "maid.png",
     "type": "image"
   },
   {
     "name": "1950",
     "aliases": [],
-    "path": "https://cdn.discordapp.com/attachments/797097242904363028/831351413019770890/unknown.png",
+    "file_name": "1950.png",
     "type": "image"
   },
   {
     "name": "yes",
     "aliases": [],
-    "path": "https://cdn.discordapp.com/attachments/797097242904363028/831341837075218482/unknown.png",
+    "file_name": "yes.png",
     "type": "image"
   },
   {
     "name": "neck",
     "aliases": [],
-    "path": "https://faith.is-a-qt.wtf/2021/04/DiscordDevelopment_JqJKQq1GYR.png",
+    "file_name": "neck.png",
     "type": "image"
   },
   {
     "name": "lipbite",
-    "aliases": ["seduce", "hot"],
-    "path": "https://cdn.discordapp.com/attachments/264445053596991498/831340382779736184/unknown.png",
+    "aliases": [
+      "seduce",
+      "hot"
+    ],
+    "file_name": "lipbite.png",
     "type": "image"
   },
   {
-    "name": "jpbberry",
-    "aliases": ["google"],
-    "path": "https://cdn.discordapp.com/attachments/265156286406983680/830607721501294612/file.png",
+    "name": "google",
+    "aliases": [
+      "jpbberry"
+    ],
+    "file_name": "google.png",
     "type": "image"
   },
   {
     "name": "ussr",
-    "aliases": ["communist"],
-    "path": "https://cdn.discordapp.com/attachments/265156286406983680/830607400721055794/file.png",
+    "aliases": [
+      "communist"
+    ],
+    "file_name": "ussr.png",
     "type": "image"
   },
   {
     "name": "trans",
     "aliases": [],
-    "path": "https://cdn.discordapp.com/attachments/265156286406983680/830607225243828255/file.png",
+    "file_name": "trans.png",
     "type": "image"
   },
   {
     "name": "joke",
     "aliases": [],
-    "path": "https://cdn.discordapp.com/attachments/265156286406983680/830607064177836102/file.png",
+    "file_name": "joke.png",
     "type": "image"
   },
   {
     "name": "gay",
     "aliases": [],
-    "path": "https://cdn.discordapp.com/attachments/265156286406983680/830606639634841650/file.png",
+    "file_name": "gay.png",
     "type": "image"
   },
   {
     "name": "repl",
-    "aliases": ["timchen"],
-    "path": "https://cdn.discordapp.com/attachments/264445053596991498/828660901431083048/47586118_1780266522079064_5707994094270172040_n.png",
+    "aliases": [
+      "timchen"
+    ],
+    "file_name": "repl.png",
     "type": "image"
   },
   {
     "name": "5head",
     "aliases": [],
-    "path": "https://cdn.discordapp.com/attachments/264445053596991498/827597832516010054/image0.png",
+    "file_name": "5head.png",
     "type": "image"
   },
   {
     "name": "microwave",
     "aliases": [],
-    "path": "https://media.discordapp.net/attachments/264445053596991498/818694233724420116/oie_PALmo1JisOZl.gif",
+    "file_name": "microwave.gif",
     "type": "image"
   }
 ]

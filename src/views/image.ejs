@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Berry is Gay</title>
+  <%- include('partials/imageHeader.ejs') %>
+</head>
+
+<body>
+  <% if (image.type==='video' ) { %>
+    <video controls><source src="/assets/<%- image.file_name %>"></video>
+  <% } else { %>
+    <img src="/assets/<%- image.file_name %>"></img>
+  <% } %>
+</body>
+
+</html>
