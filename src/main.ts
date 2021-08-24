@@ -10,11 +10,11 @@ import { NestExpressApplication } from '@nestjs/platform-express'
 import { config } from 'dotenv'
 config()
 
-const PORT = process.env['PORT'] as unknown as number
+const PORT = Number(process.env['PORT'] as string ?? 3000)
 const BERRY = process.env['BERRY'] as 'GAY' | undefined
 
 if (!PORT) throw new Error('PORT environment variable not provided')
-if (BERRY !== 'GAY') throw new Error('BERRY environment variable not gay')
+// if (BERRY !== 'GAY') throw new Error('BERRY environment variable not gay')
 
 async function bootstrap () {
   const app = await NestFactory.create<NestExpressApplication>(AppModule)

@@ -23,9 +23,9 @@
       <div>
         <h2><%= img.name %></h2>
         <% if (img.type==='video' ) { %>
-          <video controls width="200"><source src="/assets/<%- img.file_name %>"></video>
+          <video controls width="200"><source src="/api/cdn/<%- img.fileName %>"></video>
         <% } else { %>
-          <img src="/assets/<%- img.file_name %>" width="200"></img>
+          <img src="/api/cdn/<%- img.fileName %>" width="200"></img>
         <% } %>
       </div>
     <% } %>
