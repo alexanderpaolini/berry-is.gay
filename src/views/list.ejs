@@ -3,18 +3,9 @@
 
 <head>
   <title>Berry is Gay</title>
+  <link rel="stylesheet" href="stylesheet.css">
   <%- include('partials/imageHeader.ejs') %>
-  <style>
-    #box {
-      display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
-      padding-top: 50px;
-    }
-
-    div {
-      text-align: center;
-    }
-  </style>
+  <%- include('partials/berryChanger.ejs') %>
 </head>
 
 <body>
@@ -22,11 +13,13 @@
     <% for (const img of images) { %>
       <div>
         <h2><%= img.name %></h2>
-        <% if (img.type==='video' ) { %>
-          <video controls width="200"><source src="/api/cdn/<%- img.fileName %>"></video>
-        <% } else { %>
-          <img src="/api/cdn/<%- img.fileName %>" width="200"></img>
-        <% } %>
+        <a href="/<%- img.fileName %>">
+          <% if (img.type==='video' ) { %>
+            <video controls width="200"><source src="/api/cdn/<%- img.fileName %>"></video>
+          <% } else { %>
+            <img src="/api/cdn/<%- img.fileName %>" width="200"></img>
+          <% } %>
+        </a>
       </div>
     <% } %>
   </div>

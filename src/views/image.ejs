@@ -4,14 +4,17 @@
 <head>
   <title>Berry is Gay</title>
   <%- include('partials/imageHeader.ejs') %>
+  <link rel="stylesheet" href="stylesheet.css">
 </head>
 
 <body>
-  <% if (image.type === 'video') { %>
-    <video controls><source src="/api/cdn/<%- image.fileName %>"></video>
-  <% } else { %>
-    <img src="/api/cdn/<%- image.fileName %>"></img>
-  <% } %>
+  <div>
+    <% if (image.type === 'video') { %>
+      <video controls><source src="/api/cdn/<%- image.fileName %>"></video>
+    <% } else { %>
+      <img src="/api/cdn/<%- image.fileName %>"></img>
+    <% } %>
+  </div>
 </body>
 
 </html>
